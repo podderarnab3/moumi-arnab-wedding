@@ -4,6 +4,7 @@ const CONFIG = {
   // Countdown target. The card only says "evening", so 6:00 PM IST is assumed. Change if needed.
   weddingStart: "2026-11-26T18:00:00+05:30",
   weddingHours: 4,                       // length of the calendar event
+  rsvpWhatsApp: "919830061986",          // country code + number, no + or spaces
   venueName: "Asmi Banquet",
   venueAddress: "Bhorer Alo Apartment, 287 N. S. Road, New Barrackpore, North 24 Parganas, Kolkata 700131 (beside Krishty Auditorium)",
   musicVolume: 0.7,
@@ -14,7 +15,6 @@ const CONFIG = {
   const $ = (s, r = document) => r.querySelector(s);
   const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   const start = new Date(CONFIG.weddingStart);
-  if (reduced) document.querySelectorAll("animateTransform").forEach((a) => a.remove());
 
   /* ---------- Bengali numerals ---------- */
   const BN = ["০","১","২","৩","৪","৫","৬","৭","৮","৯"];
@@ -125,6 +125,22 @@ const CONFIG = {
     a.href = url; a.download = "moumi-arnab-wedding.ics";
     document.body.appendChild(a); a.click(); a.remove();
     setTimeout(() => URL.revokeObjectURL(url), 2000);
+  });
+
+  /* ---------- RSVP via WhatsApp ---------- */
+  function wa(text) {
+    window.open(`https://wa.me/${CONFIG.rsvpWhatsApp}?text=${encodeURIComponent(text)}`, "_blank", "noopener");
+  }
+  $("#rsvpForm").addEventListener("submit", (e) => {
+    e.preventDefault();
+    const name = $("#rsvpName").value.trim();
+    const n = $("#rsvpGuests").value;
+    if (!name) return;
+    wa(`নমস্কার! আমি ${name}। মৌমি ও অর্ণবের শুভবিবাহে (২৬ নভেম্বর ২০২৬) আমরা ${bn(n)} জন উপস্থিত থাকব।\n\nHello! This is ${name}. ${n} of us will join Moumi & Arnab's wedding on 26 November 2026.`);
+  });
+  $("#rsvpNo").addEventListener("click", () => {
+    const name = $("#rsvpName").value.trim() || "আমি";
+    wa(`নমস্কার! ${name}। দুঃখিত, মৌমি ও অর্ণবের শুভবিবাহে আসতে পারব না। আমার শুভেচ্ছা ও আশীর্বাদ রইল।\n\nSorry, I can't make it to Moumi & Arnab's wedding. Sending my love and blessings.`);
   });
 
   /* ---------- Share ---------- */

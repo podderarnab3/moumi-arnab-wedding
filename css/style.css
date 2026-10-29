@@ -303,7 +303,16 @@ a { color: inherit; }
 }
 .frame img { width: 100%; border: 2px solid var(--plum-900); }
 
-/* ============ CONTACT ============ */
+/* ============ RSVP ============ */
+.rsvp { max-width: 28rem; margin: 0 auto; text-align: left; display: grid; gap: 1rem; }
+.rsvp label { display: block; }
+.rsvp label .en.small { opacity: .8; margin-left: .3rem; }
+.rsvp input, .rsvp select {
+  display: block; width: 100%; margin-top: .3rem; padding: .75rem .9rem;
+  font: inherit; font-size: 1.05rem; color: var(--plum-900);
+  background: rgba(255,255,255,.65); border: 1.5px solid rgba(74,15,46,.45); border-radius: 10px;
+}
+.rsvp input::placeholder { color: rgba(74,15,46,.5); }
 .phones { display: flex; flex-wrap: wrap; justify-content: center; gap: .4rem 2rem; margin-top: -.6rem; }
 .phones a { font-variant-numeric: lining-nums; font-family: var(--f-en); font-weight: 600; font-size: 1.7rem; text-decoration: none; border-bottom: 1.5px solid var(--gold-deep); }
 
