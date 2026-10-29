@@ -13,7 +13,6 @@ Plain HTML/CSS/JS. No build step. Works on GitHub Pages as-is.
 
 ## Things you can change (js/main.js → CONFIG)
 - `weddingStart`: countdown target (currently 6:00 PM IST on 26 Nov 2026, since the card says "evening")
-- `rsvpWhatsApp`: number that receives RSVP messages on WhatsApp
 - `musicVolume`, `weddingHours` (calendar event length)
 
 Text lives in index.html. Music: audio/music.mp3. Photos: images/.
