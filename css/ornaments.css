@@ -1,0 +1,61 @@
+:root {
+  --garland: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='34' height='30' viewBox='0 0 34 30'%3E%3Cline x1='17' y1='0' x2='17' y2='30' stroke='%238a5a1b' stroke-width='1.2'/%3E%3Cg transform='translate(17 15) scale(1.0384615384615385)'%3E%3Cellipse cx='0' cy='-7.6' rx='3.7' ry='6.2' fill='%23f0a81c' stroke='%23c2780f' stroke-width='.4' transform='rotate(0)'/%3E%3Cellipse cx='0' cy='-7.6' rx='3.7' ry='6.2' fill='%23f0a81c' stroke='%23c2780f' stroke-width='.4' transform='rotate(30)'/%3E%3Cellipse cx='0' cy='-7.6' rx='3.7' ry='6.2' fill='%23f0a81c' stroke='%23c2780f' stroke-width='.4' transform='rotate(60)'/%3E%3Cellipse cx='0' cy='-7.6' rx='3.7' ry='6.2' fill='%23f0a81c' stroke='%23c2780f' stroke-width='.4' transform='rotate(90)'/%3E%3Cellipse cx='0' cy='-7.6' rx='3.7' ry='6.2' fill='%23f0a81c' stroke='%23c2780f' stroke-width='.4' transform='rotate(120)'/%3E%3Cellipse cx='0' cy='-7.6' rx='3.7' ry='6.2' fill='%23f0a81c' stroke='%23c2780f' stroke-width='.4' transform='rotate(150)'/%3E%3Cellipse cx='0' cy='-7.6' rx='3.7' ry='6.2' fill='%23f0a81c' stroke='%23c2780f' stroke-width='.4' transform='rotate(180)'/%3E%3Cellipse cx='0' cy='-7.6' rx='3.7' ry='6.2' fill='%23f0a81c' stroke='%23c2780f' stroke-width='.4' transform='rotate(210)'/%3E%3Cellipse cx='0' cy='-7.6' rx='3.7' ry='6.2' fill='%23f0a81c' stroke='%23c2780f' stroke-width='.4' transform='rotate(240)'/%3E%3Cellipse cx='0' cy='-7.6' rx='3.7' ry='6.2' fill='%23f0a81c' stroke='%23c2780f' stroke-width='.4' transform='rotate(270)'/%3E%3Cellipse cx='0' cy='-7.6' rx='3.7' ry='6.2' fill='%23f0a81c' stroke='%23c2780f' stroke-width='.4' transform='rotate(300)'/%3E%3Cellipse cx='0' cy='-7.6' rx='3.7' ry='6.2' fill='%23f0a81c' stroke='%23c2780f' stroke-width='.4' transform='rotate(330)'/%3E%3Cellipse cx='0' cy='-4.6' rx='2.9' ry='4.6' fill='%23f8c93e' transform='rotate(18)'/%3E%3Cellipse cx='0' cy='-4.6' rx='2.9' ry='4.6' fill='%23f8c93e' transform='rotate(54)'/%3E%3Cellipse cx='0' cy='-4.6' rx='2.9' ry='4.6' fill='%23f8c93e' transform='rotate(90)'/%3E%3Cellipse cx='0' cy='-4.6' rx='2.9' ry='4.6' fill='%23f8c93e' transform='rotate(126)'/%3E%3Cellipse cx='0' cy='-4.6' rx='2.9' ry='4.6' fill='%23f8c93e' transform='rotate(162)'/%3E%3Cellipse cx='0' cy='-4.6' rx='2.9' ry='4.6' fill='%23f8c93e' transform='rotate(198)'/%3E%3Cellipse cx='0' cy='-4.6' rx='2.9' ry='4.6' fill='%23f8c93e' transform='rotate(234)'/%3E%3Cellipse cx='0' cy='-4.6' rx='2.9' ry='4.6' fill='%23f8c93e' transform='rotate(270)'/%3E%3Cellipse cx='0' cy='-4.6' rx='2.9' ry='4.6' fill='%23f8c93e' transform='rotate(306)'/%3E%3Cellipse cx='0' cy='-4.6' rx='2.9' ry='4.6' fill='%23f8c93e' transform='rotate(342)'/%3E%3Ccircle r='3.3' fill='%23d2590f'/%3E%3Ccircle r='1.4' fill='%238f3408'/%3E%3C/g%3E%3C/svg%3E");
+  --bell: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='34' viewBox='0 0 24 34'%3E%3Cline x1='12' y1='0' x2='12' y2='5' stroke='%238a5a1b' stroke-width='1.4'/%3E%3Ccircle cx='12' cy='6' r='2.2' fill='%23b3121f'/%3E%3Cpath d='M12 7 C6 7 5 15 4 21 L2 26 H22 L20 21 C19 15 18 7 12 7Z' fill='%23d9a82e' stroke='%237a5410' stroke-width='1'/%3E%3Cpath d='M8 12 C7 17 7 21 6 25' stroke='%23f6dc93' stroke-width='1' fill='none'/%3E%3Ccircle cx='12' cy='29' r='2.6' fill='%23c9972b' stroke='%237a5410' stroke-width='.8'/%3E%3C/svg%3E");
+  --toran: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='66' viewBox='0 0 56 66'%3E%3Cpath d='M0 5 H56' stroke='%23d9b04a' stroke-width='1.6'/%3E%3Cpath d='M11 6 C2 21.6 3 42.4 11 58 C19 42.4 20 21.6 11 6Z' fill='%232f7d33' stroke='%231d4d22' stroke-width='.7'/%3E%3Cpath d='M11 9 V56' stroke='%237fc47f' stroke-width='.8'/%3E%3Cpath d='M45 6 C36 19.2 37 36.8 45 50 C53 36.8 54 19.2 45 6Z' fill='%233c8f40' stroke='%231d4d22' stroke-width='.7'/%3E%3Cpath d='M45 9 V48' stroke='%239bd69b' stroke-width='.8'/%3E%3Cg transform='translate(28 9) scale(0.6538461538461539)'%3E%3Cellipse cx='0' cy='-7.6' rx='3.7' ry='6.2' fill='%23f0a81c' stroke='%23c2780f' stroke-width='.4' transform='rotate(0)'/%3E%3Cellipse cx='0' cy='-7.6' rx='3.7' ry='6.2' fill='%23f0a81c' stroke='%23c2780f' stroke-width='.4' transform='rotate(30)'/%3E%3Cellipse cx='0' cy='-7.6' rx='3.7' ry='6.2' fill='%23f0a81c' stroke='%23c2780f' stroke-width='.4' transform='rotate(60)'/%3E%3Cellipse cx='0' cy='-7.6' rx='3.7' ry='6.2' fill='%23f0a81c' stroke='%23c2780f' stroke-width='.4' transform='rotate(90)'/%3E%3Cellipse cx='0' cy='-7.6' rx='3.7' ry='6.2' fill='%23f0a81c' stroke='%23c2780f' stroke-width='.4' transform='rotate(120)'/%3E%3Cellipse cx='0' cy='-7.6' rx='3.7' ry='6.2' fill='%23f0a81c' stroke='%23c2780f' stroke-width='.4' transform='rotate(150)'/%3E%3Cellipse cx='0' cy='-7.6' rx='3.7' ry='6.2' fill='%23f0a81c' stroke='%23c2780f' stroke-width='.4' transform='rotate(180)'/%3E%3Cellipse cx='0' cy='-7.6' rx='3.7' ry='6.2' fill='%23f0a81c' stroke='%23c2780f' stroke-width='.4' transform='rotate(210)'/%3E%3Cellipse cx='0' cy='-7.6' rx='3.7' ry='6.2' fill='%23f0a81c' stroke='%23c2780f' stroke-width='.4' transform='rotate(240)'/%3E%3Cellipse cx='0' cy='-7.6' rx='3.7' ry='6.2' fill='%23f0a81c' stroke='%23c2780f' stroke-width='.4' transform='rotate(270)'/%3E%3Cellipse cx='0' cy='-7.6' rx='3.7' ry='6.2' fill='%23f0a81c' stroke='%23c2780f' stroke-width='.4' transform='rotate(300)'/%3E%3Cellipse cx='0' cy='-7.6' rx='3.7' ry='6.2' fill='%23f0a81c' stroke='%23c2780f' stroke-width='.4' transform='rotate(330)'/%3E%3Cellipse cx='0' cy='-4.6' rx='2.9' ry='4.6' fill='%23f8c93e' transform='rotate(18)'/%3E%3Cellipse cx='0' cy='-4.6' rx='2.9' ry='4.6' fill='%23f8c93e' transform='rotate(54)'/%3E%3Cellipse cx='0' cy='-4.6' rx='2.9' ry='4.6' fill='%23f8c93e' transform='rotate(90)'/%3E%3Cellipse cx='0' cy='-4.6' rx='2.9' ry='4.6' fill='%23f8c93e' transform='rotate(126)'/%3E%3Cellipse cx='0' cy='-4.6' rx='2.9' ry='4.6' fill='%23f8c93e' transform='rotate(162)'/%3E%3Cellipse cx='0' cy='-4.6' rx='2.9' ry='4.6' fill='%23f8c93e' transform='rotate(198)'/%3E%3Cellipse cx='0' cy='-4.6' rx='2.9' ry='4.6' fill='%23f8c93e' transform='rotate(234)'/%3E%3Cellipse cx='0' cy='-4.6' rx='2.9' ry='4.6' fill='%23f8c93e' transform='rotate(270)'/%3E%3Cellipse cx='0' cy='-4.6' rx='2.9' ry='4.6' fill='%23f8c93e' transform='rotate(306)'/%3E%3Cellipse cx='0' cy='-4.6' rx='2.9' ry='4.6' fill='%23f8c93e' transform='rotate(342)'/%3E%3Ccircle r='3.3' fill='%23d2590f'/%3E%3Ccircle r='1.4' fill='%238f3408'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+/* ---------- Bengali decorations ---------- */
+.hero { overflow: hidden; padding-top: 7.4rem; --gh: 460px; }
+.hero .wrap, .foot .wrap { position: relative; z-index: 2; }
+@media (min-width: 52rem) { .hero { --gh: 560px; } }
+
+.toran {
+  position: absolute; left: 0; right: 0; top: 30px; height: 66px; z-index: 1; pointer-events: none;
+  background: var(--toran) repeat-x left top / 56px 66px;
+}
+.garland {
+  position: absolute; top: 0; width: 34px; height: var(--gh, 460px); z-index: 1; pointer-events: none;
+  background: var(--garland) repeat-y center top / 34px 30px;
+}
+.garland::after {
+  content: ""; position: absolute; left: 50%; bottom: -32px; width: 24px; height: 34px; transform: translateX(-50%);
+  background: var(--bell) no-repeat center / contain;
+}
+.garland-l { left: clamp(4px, 3.5vw, 72px); }
+.garland-r { right: clamp(4px, 3.5vw, 72px); }
+
+.mandala {
+  position: absolute; left: 50%; top: 610px; width: min(900px, 175vw); aspect-ratio: 1;
+  transform: translate(-50%, -50%); color: var(--haldi); opacity: .24; z-index: 0; pointer-events: none;
+}
+.foot { overflow: hidden; }
+.foot-mandala {
+  position: absolute; left: 50%; bottom: 0; width: min(640px, 150vw); aspect-ratio: 1;
+  transform: translate(-50%, 55%); color: var(--haldi); opacity: .17; z-index: 0; pointer-events: none;
+}
+
+/* toran also hangs across the card cover and the venue */
+#venue { padding-top: clamp(7.4rem, 16vw, 8.5rem); }
+#venue .toran { top: 28px; }
+.door .toran { top: 32px; z-index: 1; opacity: .95; }
+
+/* laal-par: the red-and-gold saree border */
+.band.laal {
+  top: 0; height: 28px;
+  background: var(--band) repeat-x center / 28px 22px, #b3121f;
+  border-block: 3px solid var(--gold);
+  box-shadow: 0 2px 0 #fbefc8, 0 4px 0 var(--gold);
+}
+.section-paper:has(> .band.laal) { padding-top: clamp(4.6rem, 10vw, 6.2rem); }
+
+/* heading with a pair of motifs on either side */
+.flank { display: flex; align-items: center; justify-content: center; gap: clamp(.3rem, 2vw, 1.1rem); margin-bottom: 1.5rem; }
+.flank-text { min-width: 0; }
+.flank .h-bn { font-size: clamp(1.65rem, 7vw, 2.8rem); }
+.flank .h-en { margin-bottom: 0; }
+.orn { width: clamp(44px, 12vw, 80px); height: clamp(56px, 16vw, 96px); flex: none; overflow: visible; }
+.orn.flip { transform: scaleX(-1); }
+.orn.kalka { color: var(--gold-deep); }
+.contact-line { max-width: 28rem; margin: 0 auto 1.4rem; }
+.contact-line .en { display: block; opacity: .85; }
+#contact .phones { margin-top: .6rem; }
